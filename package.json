@@ -13,5 +13,8 @@
     "ganache-cli": "^6.12.2",
     "http-server": "^14.0.0",
     "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.7.0"
   }
 }

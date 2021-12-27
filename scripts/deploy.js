@@ -1,6 +1,6 @@
 const fs = require('fs');
 const Web3 = require('web3');
-const web3 = new Web3('http://localhost:8545');
+const web3 = new Web3('https://rinkeby.infura.io/v3/bfd2419d8f3242d494de2fc399e01c34');
 const bytecode = fs.readFileSync('./build/FirstContract.bin');
 const abi = JSON.parse(fs.readFileSync('./build/FirstContract.abi'));
 
